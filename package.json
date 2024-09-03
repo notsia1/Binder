@@ -1,0 +1,17 @@
+{
+  "name": "binder",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "notk@gmail.com",
+  "license": "ISC",
+  "description": "This is a simple program to develop my skills.",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.2"
+  }
+}
