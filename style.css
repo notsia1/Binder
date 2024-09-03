@@ -507,7 +507,7 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     width: 300px;
     height: 100%;
@@ -515,11 +515,43 @@ body {
     box-shadow: 0px 0px 20px #0000005c;
     transition: 0.4s ease-in-out;
     left: 1;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
 }
 
 .matches-container .profiles:hover{
     opacity: 100%;
-    border: 1px solid #ffffff1d;
-    cursor: pointer;
     box-shadow: 0px 0px 30px #0000003a
 }
+
+
+.profiles .profile-example{
+    left: 1;
+    display: grid;
+    position: absolute;
+    top: 1;
+    width: 100%;
+    height: 100px;
+    background-color: #21212191;
+    box-shadow: 0px 0px 20px #0000003a;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    cursor: pointer;
+
+}
+
+.profiles .profile-example img {
+    opacity: 20%;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: 0.8s ease-in-out;
+    border-top-left-radius: 16px;
+    border: none !important;
+    object-position: center;
+    border-bottom-left-radius: 16px;
+
+}
+
+
