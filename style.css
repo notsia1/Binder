@@ -550,7 +550,12 @@ body {
     transition: 0.8s ease-in-out;
     border: none !important;
     object-position: center;
+}
 
+.profiles .profile-detail{
+    display: flex;
+    position: absolute;
+    left: 1;
 }
 
 
