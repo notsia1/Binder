@@ -538,8 +538,14 @@ body {
     box-shadow: 0px 0px 20px #0000003a;
     cursor: pointer;
     border: none;
+    transition: 0.4s ease-in-out;
 
 }
+
+.profiles .profile-example:active {
+    scale: 0.99;
+}
+
 
 .profiles .profile-example img {
     opacity: 20%;
@@ -643,6 +649,45 @@ body {
     scale: 0.97;
 }
 
+.chat-user{
+    display: flex;
+    position: absolute;
+    opacity: 100%;
+    font-size: 16px;
+    width:  695px;
+    padding: 8px 10px ;
+    border-top-right-radius: 16px;
+    background-color: #21212191;
+    transition: 0.4s ease-in-out;
+    color: #fff;
+    top: 1;
+    height: 45px;
+}
 
+.chat-user img {
+    opacity: 100%;
+    position: absolute;
+    object-fit: cover;
+    width: 45px;
+    height: 45px;
+    transition: 0.8s ease-in-out;
+    border: none!important;
+    object-position: center;
+    border-radius: 50%;
+}
+
+
+.chat-user img:hover {
+    box-shadow: 0px 0px 30px #0000003a;
+    cursor: pointer !important;
+}
+
+
+
+
+.chat-user h3 {
+    margin-left: 54px;
+    margin-top: 8px;
+}
 
 
